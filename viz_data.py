@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
-from wordcloud import WordCloud
 from streamlit_plotly_events import plotly_events
 
 df = pd.read_csv("Analysis.csv")
